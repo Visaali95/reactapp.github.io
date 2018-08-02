@@ -1,0 +1,139 @@
+body {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 100rem;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+
+/* .NavList {
+  float: right;
+} */
+
+.NavList li {
+  display: inline-block;
+  padding-right: 3rem;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.NavList li a:hover {
+  border-bottom: 1px solid black;
+}
+
+
+.Loginbutt {
+  padding: 1% 2%;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  font-size: 120%;
+}
+
+.Loginbutt:hover {
+  padding: 1% 2%;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  font-size: 120%;
+}
+
+.upEditbutt {
+  padding: 1% 2%;
+  border: 1px solid rgb(232, 48, 8);
+  color: rgb(232, 48, 8);
+  background-color: white;
+  font-size: 120%;
+}
+
+.upEditbutt:hover {
+  padding: 1% 2%;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(232, 48, 8);
+  font-size: 120%;
+}
+
+.themebutt {
+  padding: 1% 2%;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(232, 48, 8);
+  font-size: 120%;
+}
+
+.themebutt:hover {
+  padding: 1% 2%;
+  border: 1px solid rgb(232, 48, 8);
+  color: rgb(232, 48, 8);
+  background-color: white;
+  font-size: 120%;
+}
+
+.icon {
+  display: none;
+}
+
+
+h1{
+  font-size:200%;
+
+}
+.fixedNav {
+  width: 100%;
+  transition: ease-in-out all 0.5s;
+  left: 0;
+  top: 0 !important;
+  position: fixed !important;
+  z-index: 999;
+  box-shadow: 0px 1px 8px #0f70d6;
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .NavList {
+    position: relative;
+  }
+  .icon {
+    position: absolute;
+    right: 15px;
+    top: 0;
+  }
+  hr {
+    display: none;
+  }
+  .NavList li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .NavList {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+}
